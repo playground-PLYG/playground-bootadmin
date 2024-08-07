@@ -1,0 +1,21 @@
+server:
+  port: 8889
+  servlet:
+    encoding:
+      charset: UTF-8
+   
+spring:
+  application:
+    name: playground-bootadmin
+  boot:
+    admin:
+      context-path: /boot-admin
+      ui:
+        public-url: https://playground-apm.duckdns.org/boot-admin
+  mvc:
+    async:
+      request-timeout: -1
+  security:
+    user:
+      name: ${BOOT_ADMIN_SERVER_USERNAME:local}
+      password: ${BOOT_ADMIN_SERVER_PASSWORD:local}
