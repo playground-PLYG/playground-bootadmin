@@ -30,7 +30,7 @@ jar {
     enabled false
 }
 
-bootJar{
+bootJar {
 	archivesBaseName = 'playground-bootadmin'
 	archiveFileName = 'playground-bootadmin.jar'
 	archiveVersion = "0.0.0"
