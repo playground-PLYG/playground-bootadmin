@@ -11,3 +11,4 @@ public class BootadminApplication {
     SpringApplication.run(BootadminApplication.class, args);
   }
 }
+
