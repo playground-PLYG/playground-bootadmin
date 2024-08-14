@@ -19,3 +19,9 @@ spring:
     user:
       name: ${BOOT_ADMIN_SERVER_USERNAME:local}
       password: ${BOOT_ADMIN_SERVER_PASSWORD:local}
+
+management:
+  server:
+    port: 8899
+  endpoints:
+    enabled-by-default: false
